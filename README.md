@@ -16,11 +16,9 @@ not supposed to be accessible or do other nepharious things, and it is a common 
 
 This demo shows the difference between validating inputs or not in a Shiny
 app that queries a SQL database. Assume the user is supposed to access
-data for 2 input values (CA/NY) only. However, it is easy to manipulate the
-browser (e.g. with Chrome developer tools) so that it send any input
-for example the 3rd option in the dropdown below (even if that is not
-included in the dropdown!). See what happens for
-various inputs in a application that does not validate inputs 
+data for some input values only. However, it is easy to manipulate the
+browser (e.g. with Chrome developer tools) so that it sends any input. 
+See what happens for various values in a application that does not validate inputs 
 vs an application that does. 
 
 The demo is hosted on ShinyApps.io and you can 
