@@ -14,11 +14,11 @@ not supposed to be accessible or do other nepharious things, and it is a common 
 
 #### Demo
 
-This demo shows the difference between validating inputs or not in a Shiny
+This demo (Shiny app) shows the difference between validating inputs or not in a Shiny
 app that queries a SQL database. Assume the user is supposed to access
 data for some input values only. However, it is easy to manipulate the
 browser (e.g. with Chrome developer tools) so that it sends any input. 
-See what happens for various values in a application that does not validate inputs 
+See what happens for various values in an application that does not validate inputs 
 vs an application that does. 
 
 The demo is hosted on ShinyApps.io and you can 
